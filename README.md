@@ -14,7 +14,7 @@ If you’re worried about the added clutter in the root directory of your projec
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 https://github.com/github/gitignore
 
-
+https://github.com/devspace/awesome-github-templates
 https://github.blog/2016-02-17-issue-and-pull-request-templates/
 https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions
 ____________________________________________________________________________________________________________
