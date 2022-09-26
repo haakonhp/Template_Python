@@ -14,9 +14,9 @@ If you’re worried about the added clutter in the root directory of your projec
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 https://github.com/github/gitignore
 
-https://github.com/devspace/awesome-github-templates
-https://github.blog/2016-02-17-issue-and-pull-request-templates/
-https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions
+https://github.com/devspace/awesome-github-templates 
+https://github.blog/2016-02-17-issue-and-pull-request-templates/ 
+https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions 
 ____________________________________________________________________________________________________________
 
 Gitignore Global USAGE:
@@ -25,8 +25,8 @@ To tell Git to use the template file (globally, not just in the current repo), I
 git config --global core.excludesfile ~/.gitignore_global
 
 
-https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-https://github.com/github/gitignore
+https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files 
+https://github.com/github/gitignore 
 ____________________________________________________________________________________________________________
 
 Commit Template USAGE:
@@ -35,13 +35,13 @@ To tell Git to use the template file (globally, not just in the current repo), I
 git config --global commit.template ~/.gitmessage
 
 
-https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733
-https://gist.github.com/median-man/3a7c4324005e96f02691f3a20aeac26b
+https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733 
+https://gist.github.com/median-man/3a7c4324005e96f02691f3a20aeac26b 
 ____________________________________________________________________________________________________________
 Set-up Pycharm:
 
 How to change settings/default settings:
-https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html
-https://www.jetbrains.com/help/pycharm/setting-up-your-project.html
-https://www.jetbrains.com/help/idea/configuring-project-and-ide-settings.html
+https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html 
+https://www.jetbrains.com/help/pycharm/setting-up-your-project.html 
+https://www.jetbrains.com/help/idea/configuring-project-and-ide-settings.html 
 ____________________________________________________________________________________________________________
