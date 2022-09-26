@@ -1,40 +1,38 @@
-# <type>: <subject> (Max 50 char, Why is this change necessary?)
-# feat: New button in main feature according to roadmap
+# alle linjer bak en hashtag blir ikke med
+# TYPE COMMIT: (skriv hva slags commit det er, feat, fix, docs, refactor, test, style) Fix to this function
+# Skriv endre hva som står på neste linje:
 <type>: <subject>
-# |<----  Using a Maximum Of 50 Characters  ---->|
 
-# Explain how the commit addresses the issue
-This feature makes a button in main so that that happens.
-This is according to point 3.4 in the roadmap.
-# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# DESCRIPTION: (skriv en beskrivelse av hva du har gjort)
+# - value 1 (legg til punkter hvis det er relevant til beskrivelsen)
+# - value 2
+# Skriv endre hva som står på neste 3 linjene:
+DESCRIPTION: 
+- 
+- 
 
-# IMPORTANT!! Describe any side effects of the change.
-This might make the other button break.
-# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# BREAKING CHANGE: (hvis endringen du har gjort ødelegger koden skriv hva som ikke fungerer og legg til "!" bak type commit)
+# BREAKING CHANGE:
+# Skriv på neste linje dersom det er en breaking change:
 
-# Provide links or keys to any relevant tickets, articles or other resources
-# Examples: "Jira issue [ABC-123]" or "Closes Github issue #123"
-Closes Github issue #123
-# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
 
---- COMMIT END ---
+# EKSEMPEL fullstendig commit med !:
+#------------------------------------
+#feat!: Adds login function for user portal.
+# DESCRIPTION: Tied together the necessary code functions needed to login through frontend GUI.
+#- def get_user_name
+#- def get_user_password
+#- def authenticate_user
+# BREAKING CHANGE: The user authenticator no longer works.
+#------------------------------------
 
-# Legend
-# Type can be 
-#   feat     (new feature)
-#   fix      (bug fix)
-#   refactor (refactoring production code)
-#   style    (formatting, missing semi colons, etc; no code change)
-#   docs     (changes to documentation)
-#   test     (adding or refactoring tests; no production code change)
-#   chore    (updating grunt tasks etc; no production code change)
-#   wip      (work in progress commit to be squashed -- do not push!)**
-#   ! 	     (if changes breaks the code put an ! after like feat!)
-# --------------------
-# Remember to
-#   - Capitalize the subject line
-#   - Use the imperative mood in the subject line
-#   - Do not end the subject line with a period
-#   - Separate subject from body with a blank line
-#   - Use the body to explain what and why vs. how
-#   - Can use multiple lines with "-" for bullet points in body.
+# EKSEMPEL fullstendig commit uten !:
+#------------------------------------
+#feat: Adds login function for user portal.
+# DESCRIPTION: Tied together the necessary code functions needed to login through frontend GUI.
+#- def get_user_name
+#- def get_user_password
+#- def authenticate_user
+#------------------------------------
+# Link til side om GIT commits: https://www.conventionalcommits.org/en/v1.0.0/
+#------------------------------------
