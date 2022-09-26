@@ -22,7 +22,10 @@ ________________________________________________________________________________
 ### Gitignore Global USAGE: <br>
 #### _Git Configuration:_ <br>
 _To tell Git to use the template file (globally, not just in the current repo), I used the following command:_ <br>
+**IMPORTANT** <br>
 ``git config --global core.excludesfile ~/.gitignore_global`` <br>
+_In the current project directory_ <br>
+**IMPORTANT** <br>
 <br>
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files <br>
 https://github.com/github/gitignore <br>
@@ -30,7 +33,10 @@ ________________________________________________________________________________
 ### Commit Template USAGE: <br>
 #### _Git Configuration:_ <br>
 _To tell Git to use the template file (globally, not just in the current repo), I used the following command:_ <br>
+**IMPORTANT** <br>
 ``git config --global commit.template ~/.gitmessage`` <br>
+_In the current project directory_ <br>
+**IMPORTANT** <br>
 <br>
 https://docs.github.com/en/rest/commits/statuses <br>
 https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733 <br>
