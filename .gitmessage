@@ -1,20 +1,21 @@
+<type>: <subject> hello
+DESCRIPTION: 
+- 
+- 
+# BREAKING CHANGE: (fjern # om dette er en breaking change)
+
+-- COMMIT END --
+
+# 		Forklaringer:
 # alle linjer bak en hashtag blir ikke med
 # TYPE COMMIT: (skriv hva slags commit det er, feat, fix, docs, refactor, test, style) Fix to this function
-# Skriv endre hva som står på neste linje:
-<type>: <subject>
 
 # DESCRIPTION: (skriv en beskrivelse av hva du har gjort)
 # - value 1 (legg til punkter hvis det er relevant til beskrivelsen)
 # - value 2
-# Skriv endre hva som står på neste 3 linjene:
-DESCRIPTION: 
-- 
-- 
 
 # BREAKING CHANGE: (hvis endringen du har gjort ødelegger koden skriv hva som ikke fungerer og legg til "!" bak type commit)
 # BREAKING CHANGE:
-# Skriv på neste linje dersom det er en breaking change:
-
 
 # EKSEMPEL fullstendig commit med !:
 #------------------------------------
